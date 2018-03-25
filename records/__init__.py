@@ -1,3 +1,8 @@
-#!/urs/bin/env python
+#!/usr/bin/env python
 
-from records import records
+__version__ = "0.2"
+
+from .records import Records
+from .records import Epochs
+from .records import load_epochs_from_csv
+
