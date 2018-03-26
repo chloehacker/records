@@ -50,7 +50,7 @@ rec.sdf.head()
 
 ```
 # collect all records from 1900 to 1921 in 3 year intervals from Canada
-ep = records.Epoch("Bombus", 1900, 1960, 3, **{"country": "CA"})
+ep = records.Epochs("Bombus", 1900, 1960, 3, **{"country": "CA"})
 
 # show first 10 records
 ep.sdf.head()
